@@ -73,3 +73,19 @@ if st.button("Clique aqui para revelar nossa foto! 📸"):
         caption="Momentos que guardo no meu coração 💖", 
         use_container_width=True
     )
+
+# 🎇 Botão final com mensagem de encerramento
+st.markdown("---")
+st.subheader("✨ Um último recado...")
+
+if st.button("Clique aqui para o GRANDE FINAL! 🎇"):
+    st.success("Prepare-se para sorrir... 😍")
+    st.markdown("""
+    ## 💖✨
+    ### Quero que você nunca se esqueça:
+    ### Você é o amor da minha vida, minha melhor companhia, minha inspiração diária.  
+    ### Que possamos continuar construindo memórias lindas, vivendo cada dia com amor, carinho e cumplicidade.  
+    ### Você é a pessoa mais especial que Deus colocou na minha vida.  
+    ### TE AMO INFINITAMENTE! ❤️🥰
+    """, unsafe_allow_html=True)
+    st.balloons()
