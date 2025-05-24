@@ -68,6 +68,8 @@ st.markdown("---")
 st.subheader("📸 Quer ver uma lembrança especial?")
 
 if st.button("Clique aqui para revelar nossa foto! 📸"):
-    st.image("https://i.imgur.com/S8BRvay.jpg", 
-             caption="Momentos que guardo no meu coração 💖", 
-             use_column_width=True)
+    st.image(
+        "https://i.imgur.com/S8BRvay.jpg", 
+        caption="Momentos que guardo no meu coração 💖", 
+        use_container_width=True
+    )
